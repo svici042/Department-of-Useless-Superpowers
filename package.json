@@ -2,17 +2,20 @@
   "name": "department-of-useless-superpowers",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "badLovLaus",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
-    "dotenv": "^18.0.10",
-    "env": "^0.0.2",
     "express": "^5.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svici042/Department-of-Useless-Superpowers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/svici042/Department-of-Useless-Superpowers/issues"
+  },
+  "homepage": "https://github.com/svici042/Department-of-Useless-Superpowers#readme"
 }
