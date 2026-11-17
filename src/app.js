@@ -1,8 +1,10 @@
 import express from "express";
+import heroRoutes from "./routes/heroRoutes.js";
 
 const app = express();
 
 app.use(express.json());
+app.use("/heroes", heroRoutes);
 
 app.get("/", (req, res) => {
   res.json({
