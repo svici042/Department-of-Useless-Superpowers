@@ -2,7 +2,10 @@
   "name": "department-of-useless-superpowers",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
   "keywords": [],
   "author": "badLovLaus",
   "license": "ISC",
