@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/svici042/Department-of-Useless-Superpowers/issues"
   },
-  "homepage": "https://github.com/svici042/Department-of-Useless-Superpowers#readme"
+  "homepage": "https://github.com/svici042/Department-of-Useless-Superpowers#readme",
+  "devDependencies": {
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0"
+  }
 }
