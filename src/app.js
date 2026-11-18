@@ -13,4 +13,13 @@ app.get("/", (req, res) => {
   });
 });
 
+// Return a short JSON error when Express cannot parse a request body.
+app.use((error, req, res, next) => {
+  if (error instanceof SyntaxError && error.status === 400 && "body" in error) {
+    return res.status(400).json({ error: "Invalid JSON body" });
+  }
+
+  return next(error);
+});
+
 export default app;
