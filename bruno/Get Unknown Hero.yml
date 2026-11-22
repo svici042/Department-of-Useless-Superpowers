@@ -1,0 +1,9 @@
+info:
+  name: Get Unknown Hero
+  type: http
+  seq: 5
+
+http:
+  method: GET
+  url: http://localhost:3000/heroes/999
+  auth: inherit

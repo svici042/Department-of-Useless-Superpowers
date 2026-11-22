@@ -24,6 +24,3 @@ coverage/
 .DS_Store
 Thumbs.db
 Desktop.ini
-
-# Local user data containing email addresses
-/src/controllers/store/users.local.json
